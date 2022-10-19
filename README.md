@@ -11,5 +11,7 @@ Transformasi data dilakukan dengan mengurangi setiap nilai atribut dalam data de
 
 - Untuk atribut tanah, nilai maksimum adalah 150 dan nilai minimum adalah 70.
 - Saat nilai atribut tanah 100, proses transformasi akan mengubah nilai atribut ini menjadi 0,375
-
-<b> nilai_transformasi = 100 - 70 / (150 - 70) <b/>
+- nilai_transformasi = 100 - 70 / (150 - 70) 
+- Variable yang digunakan yaitu:
+data = {'tanah': 110, 'bangunan': 80, 'jarak_ke_pusat': 35}
+ 
